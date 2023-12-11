@@ -5,40 +5,73 @@ font-family: 'Zeyada', cursive;*/
 
 @font-face {
   font-family: 'LineAwesome';
-  src: url('../fonts/lineAwesomeFonts/la-solid-900.woff2') format('woff2'),
-    url('../fonts/lineAwesomeFonts/la-solid-900.woff') format('woff'),
-    url('../fonts/lineAwesomeFonts/la-solid-900.ttf') format('truetype');
+  src: url('../fonts/la-solid-900.woff2') format('woff2'),
+    url('../fonts/la-solid-900.woff') format('woff'),
+    url('../fonts/la-solid-900.ttf') format('truetype');
   font-weight: 900;
 }
 
+                /*GENERAL STYLES*/
+
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   font-family: Arial, sans-serif;
 }
 
+/*footer*/
+
+.div {
+  width: 100%;
+}
+
+.book-btn {
+  margin-left: 35vw;
+  height: auto;
+  width: 30vw;
+  font-size: 2vw;
+  color: #ffffff;
+  background-color: #875f45;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  border-radius: 5px;
+}
+
+#footer p {
+  text-align: center;
+  padding: 2vw;
+  font-size: 1.7vw;
+  margin-bottom: 0px;
+}
+
+.div-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-cont a {
+  font-size: 1.5vw;
+}
+
+#foot-two {
+  background-color: #875f45;
+}
+
+/*header*/
+
+header {
+  padding: 2vw;
+}
+
 .logo img {
-  width: 100px;
+  width: 14vw;
   /* Tamaño del logo */
 }
 
-nav ul {
-  list-style: none;
-}
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
 
 .titles {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Vollkorn', serif; /* declaramos el uso de la fuente de GoogleFonts Vollkorn*/
 }
 
 /* Estilos para el carousel */
@@ -182,29 +215,6 @@ nav ul li a {
   margin: 0px;
 }
 
-.div {
-  width: 100%;
-}
-
-.book-btn {
-  margin-left: 35%;
-  background-color: #875f45;
-  height: 80px;
-  width: 30%;
-  font-size: 30px;
-  color: #ffffff;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#footer p {
-  text-align: center;
-  background-color: #875f45;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  height: 50px;
-}
-
 .theme1 {
   background-color: #A78262;
   padding-top: 20px;
@@ -251,12 +261,6 @@ p {
 .contact1 {
   margin-top: 80px;
   margin-bottom: 60px;
-}
-
-.div-cont {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
 }
 
 .relat {
@@ -357,7 +361,7 @@ p {
   z-index: -1;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1028px) {
   .location-text {
     font-size: 0.6rem;
   }
@@ -368,11 +372,6 @@ p {
 
   .btn-explore {
     font-size: 1.2rem;
-  }
-
-  .book-btn {
-    height: 60px;
-    font-size: 25px;
   }
 
   .title-cont {
@@ -402,14 +401,9 @@ p {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 772px) {
   .amor-home p {
     font-size: 15px;
-  }
-
-  .book-btn {
-    height: 60px;
-    font-size: 20px;
   }
 
   .title-cont {
@@ -435,7 +429,7 @@ p {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 456px) {
   .location-text {
     font-size: 0.4rem;
   }
@@ -445,12 +439,7 @@ p {
   }
 
   .btn-explore {
-    font-size: 0.8rem;
-  }
-
-  .book-btn {
-    height: 40px;
-    font-size: 15px;
+    font-size: 0.5rem;
   }
 
   .title-cont {

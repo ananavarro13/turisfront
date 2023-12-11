@@ -25,8 +25,6 @@ a{
 	color:#fa5911;
 }
 
-
-
 .navbar-light .navbar-nav .show > .nav-link{
 	color: #ABA19F;	
 }
@@ -90,14 +88,6 @@ a{
 .navbar-light .navbar-brand:hover {
  	color:#FE8F01;
 }
-.navbar-light .navbar-brand img{
-	
-}
-
-.navbar-toggler i{
-	color: #fa5911;
-	font-size: 30px;
-}
 
 .navbar-collapse {
 	display: flex;
@@ -108,6 +98,7 @@ a{
 	color: #222;
 	margin: 0px 5px;
 	text-decoration: none;
+	font-family: 'Vollkorn', serif;
 }
 
 
