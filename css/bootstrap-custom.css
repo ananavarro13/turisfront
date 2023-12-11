@@ -94,13 +94,21 @@ a{
 	
 }
 
-
 .navbar-toggler i{
 	color: #fa5911;
 	font-size: 30px;
 }
 
+.navbar-collapse {
+	display: flex;
+	justify-content: right;
+}
 
+.navbar-nav a{
+	color: #222;
+	margin: 0px 5px;
+	text-decoration: none;
+}
 
 
 
