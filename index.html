@@ -2,16 +2,6 @@
 <html>
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MH3WV2QTC"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7MH3WV2QTC');
-  </script>
-  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Una forma rapida de planear tus viajes y enfoncarte solo en disfrutar.">
@@ -19,21 +9,31 @@
   <title>TurisFront</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./css/line-awesome.min.css">
   <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap-custom.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <nav class="navbar bg-body-tertiary">
-    <div class="logo">
-      <img src="img/TURISFRONT_Logo.png" alt="Turisfront Logo">
+
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="logo">
+        <img src="img/TURISFRONT_Logo.png" alt="Turisfront Logo">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="#">Home</a>
+          <a href="about.html">About</a>
+          <a href="themes.html">Theme</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
     </div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="themes.html">Theme</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
   </nav>
 
   <section id="hero">
@@ -198,6 +198,11 @@
 
   <section id="footer">
     <div class="div"><button class="book-btn" type="button">BOOK NOW</button></div>
+    <div class="div-cont">
+      <a><i class="las la-envelope"></i> info@turisfront.com</a>
+      <a><i class="las la-globe"></i> Turisfront.com</a>
+      <a><i class="las la-user"></i> Turisfront</a>
+    </div>
     <p>Copyright 2023 Turisfront</p>
   </section>
 
