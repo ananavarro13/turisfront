@@ -11,7 +11,7 @@ font-family: 'Zeyada', cursive;*/
   font-weight: 900;
 }
 
-                /*GENERAL STYLES*/
+/*GENERAL STYLES*/
 
 body {
   margin: 0 !important;
@@ -19,7 +19,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/*footer*/
+.titles {
+  font-family: 'Vollkorn', serif;
+  /* declaramos el uso de la fuente de GoogleFonts Vollkorn*/
+}
+
+
+/*FOOTER*/
+
 
 .div {
   width: 100%;
@@ -35,6 +42,8 @@ body {
   margin-top: 5vw;
   margin-bottom: 5vw;
   border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
 }
 
 #footer p {
@@ -57,7 +66,15 @@ body {
   background-color: #875f45;
 }
 
-/*header*/
+.revs {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+}
+
+
+/*HEADER*/
+
 
 header {
   padding: 2vw;
@@ -69,10 +86,8 @@ header {
 }
 
 
+/*INDEX STYLES*/
 
-.titles {
-  font-family: 'Vollkorn', serif; /* declaramos el uso de la fuente de GoogleFonts Vollkorn*/
-}
 
 /* Estilos para el carousel */
 #hero {
@@ -81,61 +96,8 @@ header {
 }
 
 .carousel-item img {
-  width: 100%;
+  width: 100VW;
   height: 100%;
-}
-
-/* Estilos para el cuadro blanco detrás de los títulos */
-.white-box {
-  background-color: white;
-  height: 100px;
-  /* Altura del cuadro blanco, ajusta según lo necesites */
-  margin-top: 5px;
-  /* Espaciado superior entre el texto y el cuadro */
-}
-
-/* Estilos para los títulos */
-.location-title {
-  display: inline-block;
-  padding: 3px 12px;
-  background-color: #ffffff;
-  color: #000000;
-  margin-bottom: 5px;
-  /* Espaciado inferior entre los títulos y el texto */
-  border: 2px solid #000000;
-  border-radius: 5px;
-  text-align: center;
-}
-
-/* Estilos para el texto debajo de los títulos */
-.location-text {
-  color: white;
-  margin-top: 5px;
-  /* Espaciado superior entre el texto y el cuadro */
-  font-size: 1rem;
-  text-align: center;
-}
-
-.title-cont {
-  font-size: 70px;
-}
-
-.btn-explore {
-  background-color: #A78262;
-  color: black;
-  text-transform: uppercase;
-  margin-top: 5px;
-  border: none;
-  border-radius: 10px;
-  padding: 8px 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn-explore:hover {
-  background-color: #875f45;
-  color: white;
 }
 
 /* Estilos para el contenido del carousel */
@@ -153,15 +115,51 @@ header {
   /* Agregar padding a la izquierda */
 }
 
-/* Alinear el botón "Explore" hacia la izquierda */
+/* Estilos para los títulos */
+.location-title {
+  display: inline-block;
+  padding: 0.5vw 1.2vw;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 2vw;
+  /* Espaciado inferior entre los títulos y el texto */
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* Estilos para el texto debajo de los títulos */
+.location-text {
+  color: white;
+  /* Espaciado superior entre el texto y el cuadro */
+  font-size: 1.2vw;
+  text-align: center;
+  margin-bottom: 2vw !important;
+}
+
 .btn-explore {
-  margin-left: 0;
-  /* Alinear a la izquierda */
+  background-color: #A78262;
+  color: black;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 1vw 2vw;
+  font-weight: bold;
+  font-size: 1.4vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.btn-explore:hover {
+  background-color: #875f45;
+  color: white;
 }
 
 .fondo-home {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .fondo-home img {
@@ -176,19 +174,13 @@ header {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-size: 36px;
+  font-size: 7vw;
   font-weight: bold;
-}
-
-.amor-home p {
-  padding: 15px 60px;
-  text-align: center;
-  color: #000000;
 }
 
 .couples {
   background-color: #875f45;
-  padding: 20px 0px;
+  padding: 4vw 0px;
 }
 
 .couples h1 {
@@ -197,15 +189,22 @@ header {
   margin: 0px;
 }
 
-#experiencias {
+.titles {
+  font-size: 6vw;
+}
+
+.amor-home p {
+  padding: 15px 60px;
   text-align: center;
-  margin: 40px 0px;
+  color: #000000;
+  font-size: 2vw;
 }
 
 .desc-recom {
   color: #ffffff;
   background-color: #A78262;
   margin: 0px;
+  font-size: 3vw;
 }
 
 .desc-recom-b {
@@ -213,26 +212,41 @@ header {
   background-color: #A78262;
   font-weight: bold;
   margin: 0px;
+  font-size: 2vw;
 }
+
+#experiencias {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.img-exp {
+  width: 100%;
+  height: 80%;
+}
+
+
+/*THEMES STYLES*/
+
 
 .theme1 {
   background-color: #A78262;
-  padding-top: 20px;
+  padding-top: 5vw;
   padding-bottom: 2px;
 }
 
 .theme2 {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 7vw;
+  margin-bottom: 7vw;
 }
 
 .theme3 {
-  margin-top: 30px;
+  margin-top: 6vw;
 }
 
 #hero-theme h1 {
   text-align: center;
-  margin: 40px 10px;
+  margin: 5vw 2vw;
 }
 
 #hero-theme h2,
@@ -253,6 +267,15 @@ p {
   padding: 0px;
 }
 
+.img-theme {
+  width: 100%;
+  height: 90%;
+}
+
+
+/*CONTACT STYLES*/
+
+
 .btn-submit {
   background-color: #A78262;
   width: 100%;
@@ -263,9 +286,13 @@ p {
   margin-bottom: 60px;
 }
 
-.relat {
-  position: relative;
+.title-cont {
+  font-size: 8vw;
 }
+
+
+/*ABOUT STYLES*/
+
 
 .p-about {
   color: #000000;
@@ -278,6 +305,8 @@ p {
   margin-left: 30%;
   width: 40%;
   border: 0px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .h-about {
@@ -301,6 +330,10 @@ p {
 
 .h-size {
   height: 400px;
+}
+
+.relat {
+  position: relative;
 }
 
 .couple-img-1 {
@@ -361,19 +394,127 @@ p {
   z-index: -1;
 }
 
+
+/*PROMO STYLES*/
+
+
+.fondo-promo {
+  position: relative;
+  margin-bottom: 3vw;
+  margin-top: 4vw;
+}
+
+.fondo-promo img {
+  display: block;
+  height: 35vw;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.fondo-promo h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+.img-promo {
+  width: 100%;
+  height: 65%;
+}
+
+.row-promo {
+  padding: 0px 10vw;
+}
+
+.promo-recom {
+  font-size: 2vw;
+}
+
+.promo-recom-b {
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+
+/*Attendance STYLES*/
+
+
+#hero-attend {
+  margin-bottom: 3vw;
+}
+
+.fondo-attend {
+  width: 100%;
+  height: 70vw;
+  position: relative;
+}
+
+.fondo-attend img {
+  width: 100%;
+  height: 70%;
+  padding: 3vw 6vw;
+}
+
+.sombra {
+  top: 40%;
+  width: 100%;
+  height: 60%;
+  background-color: #A78262;
+  position: absolute;
+  z-index: -1;
+}
+
+.info-attend {
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+  height: 40%;
+  background-color: #ffffffaf;
+  left: 20%;
+  top: 40%;
+  border: 2px #000000 solid;
+}
+
+.title-attend {
+ margin: 3vw 8vw;
+ text-align: center;
+}
+
+.p-attend {
+  margin: 0px 8vw;
+  color: #000000;
+}
+
+.attend-btn {
+  margin-left: 30% !important;
+  width: 40% !important;
+}
+
+
+/*REVIEW STYLES*/
+
+
+.precious {
+  margin: 5vw;
+}
+
+.title-rev {
+  text-align: center;
+  font-size: 4vw;
+}
+
+.img-rev {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 1028px) {
-  .location-text {
-    font-size: 0.6rem;
-  }
-
-  .location-title {
-    font-size: 1.1rem;
-  }
-
-  .btn-explore {
-    font-size: 1.2rem;
-  }
-
   .title-cont {
     font-size: 3.2rem;
   }
@@ -431,15 +572,7 @@ p {
 
 @media screen and (max-width: 456px) {
   .location-text {
-    font-size: 0.4rem;
-  }
-
-  .location-title {
-    font-size: 0.7rem;
-  }
-
-  .btn-explore {
-    font-size: 0.5rem;
+    font-size: 1.5vw;
   }
 
   .title-cont {
